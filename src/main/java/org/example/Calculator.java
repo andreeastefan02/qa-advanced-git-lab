@@ -1,8 +1,9 @@
 package org.example;
 
 public class Calculator {
+
+    private static final int bonus = 2;
         public int aduna(int a, int b) {
-            int bonus = 2;
             return a + b + bonus;
         }
         public static void main(String[] args) {
