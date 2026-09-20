@@ -2,7 +2,7 @@ package org.example;
 
 public class Calculator {
         public int aduna(int a, int b) {
-            int bonus = 2;
+            int bonus = 5;
             return a + b + bonus;
         }
         public static void main(String[] args) {
